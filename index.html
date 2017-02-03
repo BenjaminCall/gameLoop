@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Game Loop</title>
+    <meta name="description" content="Game Loop">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>
+    <script src="./scripts.js"></script>
+  </head>
+
+  <body>
+
+    <header id="header" class="header">
+      Browser GameLoop
+    </header>
+    <table class="table">
+      <tr class="tr">
+        <td><div id="displayevent"></div></td>
+        <td id="actionevent">
+          <form>
+            Name:     <input type="text" id="name" name="fullname"><br><br>
+            Interval: <input type="text" id="interval" name="interval"><br><br>
+            # Times:  <input type="text" id="num" name="num-times"><br><br>
+            <button type="button" id="submit" value="Add Event" onclick="initalizeTask()">Add Event</button>
+          </form>
+        </td>
+      </tr>
+    </table>
+    <footer>
+      Created for CS 5410
+    </footer>
+  </body>
+
+</html>
